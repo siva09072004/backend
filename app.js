@@ -5,7 +5,7 @@ const port = 3000;
 
 const mongoose = require("mongoose");
 
-const mongodb = "mongodb://localhost:27017/satellite";
+const mongodb = "mongodb+srv://sskshiva89:sskshiva89@cluster0.9kzgds6.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 
 app.use(express.json()); // Middleware to parse JSON bodies
 
